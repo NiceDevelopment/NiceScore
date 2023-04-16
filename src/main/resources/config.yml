@@ -1,0 +1,33 @@
+# NiceScore Configuration file
+# Made by https://github.com/Desistirei/
+
+scoreboard:
+  title: "&6&lNiceScore"
+  lines:
+    - ""
+    - "&6This is the example board!"
+    - ""
+    - "&fOnline: &6{online}"
+    - "&fPing: &6{ping}ms"
+    - ""
+    - "&6www.nicescore.net"
+
+messages:
+  help:
+    - "&6&lNiceScore &f- &lHelp Commands"
+    - ""
+    - "&6/nicescore &f- &7Shows this help command."
+    - "&6/nicescore reload &f- &7Reloads the config."
+    - ""
+  reload:
+    - "&aWe are reloading the plugin,"
+    - "&aplease wait..."
+  reloaded:
+    - "&aNiceScore reloaded successfully!"
+    - "&aThanks for using my plugin!"
+
+misc:
+  # Scoreboard Assemble type. Valid values are: KOHI, VIPER, MODERN.
+  # If you use an invalid value, it will default to VIPER.
+  # Won't change a lot on your scoreboard, if something goes wrong then you can test this!
+  assemble-style: VIPER
