@@ -1,4 +1,4 @@
-# NiceScoreboard
+# NiceScore
 Simple scoreboard plugin for Minecraft!
 
 # APIs used:
